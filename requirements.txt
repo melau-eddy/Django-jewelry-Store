@@ -12,6 +12,7 @@ cryptography==45.0.2
 diff-match-patch==20241021
 distlib==0.3.9
 distro==1.9.0
+dj-rest-auth==7.0.1
 Django==5.2.1
 django-import-export==4.3.7
 django-jazzmin==3.0.1
