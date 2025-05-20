@@ -26,7 +26,7 @@
                         <small class="text-danger">{{fm.errors|striptags}}</small>
                     </div>
                 {% endfor %}
-                <button class="btn btn-primary" type="submit">Login</button>
+                <button class="btn btn-primary" type="submit">login</button>
               </fieldset>
 
               {% if form.non_field_errors %}
@@ -45,8 +45,8 @@
 
             <hr>
 
-            Forgot Password? <a href="{% url 'store:password-reset' %}">Reset Now</a> <br>
-            New Member? <a href="{% url 'store:register' %}">Create an Account</a> 
+            Forgot password? <a href="{% url 'store:password-reset' %}">Reset Now</a> <br>
+            New member? <a href="{% url 'store:register' %}">Create an Account</a> 
             
           </div>
         </div>
