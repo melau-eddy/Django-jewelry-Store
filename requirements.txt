@@ -16,6 +16,7 @@ dj-rest-auth==7.0.1
 Django==5.2.1
 django-allauth==65.8.0
 django-appconf==1.1.0
+django-axes==8.0.0
 django-compressor==4.5.1
 django-cors-headers==4.7.0
 django-import-export==4.3.7
